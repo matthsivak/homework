@@ -21,6 +21,7 @@ bun run start
 ```
 
 ## Assignment
+The goal of this project is to create simple aplication that has the ability to display list of entries (like in admin panel on some CMS). The aplication is then able to submit individual entries to Phrase TMS for localization and track localization progress.
 
 1. Display all entries in the table and include abilities
    1. filter by author (select from the list of names)
@@ -36,6 +37,7 @@ bun run start
 3. Display a single entry
    1. Add the ability to create a new localization project by posting to /api/projects
    2. When the localization project is submitted display the status of the localization project and a status of individual locales
+4. Display all active projects
 
 ### Required technologies:
 - Vue.js 3 with Composition API and TypeScript
