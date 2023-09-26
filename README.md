@@ -50,7 +50,7 @@ The goal of this project is to create simple aplication that has the ability to 
 
 
 ### Delivery instructions:
-- send us you finished project as a link to a public repository (GitHub, GitLab, Bitbucket, etc.)
+- send us your finished project as a link to a public repository (GitHub, GitLab, Bitbucket, etc.)
 
 
 ## API documentation
