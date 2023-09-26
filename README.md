@@ -49,5 +49,9 @@ The goal of this project is to create simple aplication that has the ability to 
 - table filtering and sorting should be kept between page reloads
 
 
+### Delivery instructions:
+- send us you finished project as a link to a public repository (GitHub, GitLab, Bitbucket, etc.)
+
+
 ## API documentation
 https://documenter.getpostman.com/view/7163817/2s9YJW7Rte
