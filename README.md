@@ -34,8 +34,8 @@ bun run start
    4. number of entries by month or year
       etc.
 3. Display a single entry
-4. On single entry view add the ability to create a new localization project by posting to /api/projects
-5. When the localization project is submitted display the status of the localization project and a status of individual locales
+   1. Add the ability to create a new localization project by posting to /api/projects
+   2. When the localization project is submitted display the status of the localization project and a status of individual locales
 
 ### Required technologies:
 - Vue.js 3 with Composition API and TypeScript
