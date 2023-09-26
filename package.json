@@ -3,8 +3,8 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "migrate": "bun src/utils/buildEntries.ts && bunx prisma db push",
-    "start": "bun run src/index.ts"
+    "migrate": "npx tsx src/utils/buildEntries.ts && npx prisma db push",
+    "start": "npx tsx src/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest",

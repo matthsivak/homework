@@ -1,16 +1,18 @@
-import {Request, Response} from "express";
-import entries from "../../src/entries/entries.json"
+import { Request, Response, Router } from "express";
+import entries from "../entries/entries.json"
 
-export const getAllEntries = async (req: Request, res: Response) => {
+const router = Router();
+
+router.get('/entries', async (req: Request, res: Response) => {
   try {
     res.status(200).json({ data: entries });
   } catch (e: any) {
     console.log(e);
     res.status(500).json({ message: e.message });
   }
-};
+})
 
-export const getSingleEntry = async (req: Request, res: Response) => {
+router.get('/entries/:id', async (req: Request, res: Response) => {
   const id = req.params.id
 
   if (isNaN(Number(id))) {
@@ -32,4 +34,6 @@ export const getSingleEntry = async (req: Request, res: Response) => {
     console.log(e);
     res.status(500).json({ message: e.message });
   }
-}
+})
+
+export default router;
